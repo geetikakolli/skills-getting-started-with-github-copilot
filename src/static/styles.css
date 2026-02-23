@@ -132,6 +132,61 @@ button:hover {
   border: 1px solid #bee5eb;
 }
 
+/* Participants list styling for activity cards */
+.participants {
+  margin-top: 12px;
+}
+
+.participants-list {
+  list-style: none;
+  margin: 8px 0 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.participants-list li {
+  display: inline-flex;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #eee;
+  padding: 6px 8px;
+  border-radius: 16px;
+  margin: 0;
+  font-size: 0.95em;
+  color: #333;
+}
+
+.participant-email {
+  margin-right: 8px;
+}
+
+.participant-remove {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-weight: bold;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background 0.15s;
+}
+
+.participant-remove:hover {
+  background: rgba(198, 40, 40, 0.08);
+}
+
+.no-participants {
+  color: #666;
+  font-style: italic;
+  margin-top: 8px;
+}
+
 .hidden {
   display: none;
 }
